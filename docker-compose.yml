@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  server:
+    build: .
+    volumes:
+      - "./app:/code/app"
+    expose:
+      - 80
+    ports:
+      - "80:80"
