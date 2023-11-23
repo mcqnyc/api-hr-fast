@@ -28,4 +28,5 @@ env.bak/
 venv.bak/
 
 scratch.txt
+MY_NOTES.MD
 data.db
